@@ -28,4 +28,12 @@ public class Bank <T extends Asset> {
     public T getActive() {
         return active;
     }
+
+    Asset appleStock = new BankInstrument(200) {
+        public String trendOnMarket() {
+            String s = "Price of Gasprom stocks is falling";
+            System.out.println(appleStock.trendOnMarket());
+            return s;
+        }
+    };
 }
