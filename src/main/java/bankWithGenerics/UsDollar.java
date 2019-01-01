@@ -6,4 +6,9 @@ public class UsDollar extends BankInstrument implements Asset {
         this.nameOfInstrument = "US dollars";
     }
 
+    public String trendOnMarket() {
+        String s = " Price of dollar is rising";
+        return s;
+    }
+
 }
