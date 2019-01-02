@@ -40,7 +40,7 @@ public abstract class BankInstrument implements Asset {
 
     @Override
     public String toString() {
-        String s = "Your instrument is: " + "\n" + this.nameOfInstrument + "\n" + this.showBalance() +"\n" + this.trendOnMarket();
+        String s = "Your instrument is: " + "\n" + this.nameOfInstrument;
         return s;
     }
 }
